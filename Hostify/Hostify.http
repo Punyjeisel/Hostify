@@ -1,0 +1,6 @@
+@Hostify_HostAddress = http://localhost:5056
+
+GET {{Hostify_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

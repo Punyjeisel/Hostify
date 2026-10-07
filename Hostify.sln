@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.API", "Hostify\Hostify.API.csproj", "{711B1B44-185B-495B-8574-6D982AEFF983}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2116BB2C-1531-465F-8937-59EB7247FEFB} = {2116BB2C-1531-465F-8937-59EB7247FEFB}
+		{907097AF-7270-487D-BC8D-48126CCE7DB9} = {907097AF-7270-487D-BC8D-48126CCE7DB9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.Aplication", "Hostify.Aplication\Hostify.Aplication.csproj", "{907097AF-7270-487D-BC8D-48126CCE7DB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{441BEBDD-8906-4F23-955A-270EC6702713} = {441BEBDD-8906-4F23-955A-270EC6702713}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.Domain", "Hostify.Domain\Hostify.Domain.csproj", "{441BEBDD-8906-4F23-955A-270EC6702713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.Infrastructure", "Hostify.Infrastructure\Hostify.Infrastructure.csproj", "{2116BB2C-1531-465F-8937-59EB7247FEFB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{441BEBDD-8906-4F23-955A-270EC6702713} = {441BEBDD-8906-4F23-955A-270EC6702713}
+		{907097AF-7270-487D-BC8D-48126CCE7DB9} = {907097AF-7270-487D-BC8D-48126CCE7DB9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711B1B44-185B-495B-8574-6D982AEFF983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711B1B44-185B-495B-8574-6D982AEFF983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711B1B44-185B-495B-8574-6D982AEFF983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711B1B44-185B-495B-8574-6D982AEFF983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907097AF-7270-487D-BC8D-48126CCE7DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907097AF-7270-487D-BC8D-48126CCE7DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907097AF-7270-487D-BC8D-48126CCE7DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907097AF-7270-487D-BC8D-48126CCE7DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441BEBDD-8906-4F23-955A-270EC6702713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441BEBDD-8906-4F23-955A-270EC6702713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441BEBDD-8906-4F23-955A-270EC6702713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441BEBDD-8906-4F23-955A-270EC6702713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2116BB2C-1531-465F-8937-59EB7247FEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2116BB2C-1531-465F-8937-59EB7247FEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2116BB2C-1531-465F-8937-59EB7247FEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2116BB2C-1531-465F-8937-59EB7247FEFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {010E558F-2D0C-437D-8965-2B0EE00FD39D}
+	EndGlobalSection
+EndGlobal
