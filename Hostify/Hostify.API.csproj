@@ -25,7 +25,7 @@
   </ItemGroup>
 	
   <ItemGroup>
-		<ProjectReference Include="..\Hostify.Aplication\Hostify.Aplication.csproj" />
+		<ProjectReference Include="..\Hostify.Aplication\Hostify.Application.csproj" />
 	  <ProjectReference Include="..\Hostify.Infrastructure\Hostify.Infrastructure.csproj" />
   </ItemGroup>
 

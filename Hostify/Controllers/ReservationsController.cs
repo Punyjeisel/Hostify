@@ -9,11 +9,11 @@ namespace Hostify.API.Controllers
     [ApiController]
     [Route("api/reservations")]
     [Authorize]
-    public class ReservatiosController : ControllerBase
+    public class ReservationsController : ControllerBase
     {
         private readonly IReservationService _reservationService;
 
-        public ReservatiosController(IReservationService reservationService)
+        public ReservationsController(IReservationService reservationService)
         {
             _reservationService = reservationService;
         }

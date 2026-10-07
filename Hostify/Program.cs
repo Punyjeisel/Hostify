@@ -79,7 +79,7 @@ namespace Hostify
 
             builder.Services.AddScoped<IEmailConfirmationTokenRepository, EmailConfirmationTokenRepository>(); // Agrega el repositorio de tokens de confirmación de correo electrónico
 
-            builder.Services.AddScoped<IJwtSevice, JwtService>(); // Agrega el servicio de generación de JWT
+            builder.Services.AddScoped<IJwtService, JwtService>(); // Agrega el servicio de generación de JWT
 
             builder.Services.AddScoped<IPropertyRepository, PropertyRepository>(); // Agrega el repositorio de propiedades
 

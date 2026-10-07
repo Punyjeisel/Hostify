@@ -30,6 +30,6 @@
 
   <ItemGroup>
 		<ProjectReference Include="..\Hostify.Domain\Hostify.Domain.csproj" />
-		<ProjectReference Include="..\Hostify.Aplication\Hostify.Aplication.csproj" />
+		<ProjectReference Include="..\Hostify.Aplication\Hostify.Application.csproj" />
   </ItemGroup>
 </Project>

@@ -7,7 +7,7 @@ using Hostify.Domain.Entities;
 
 namespace Hostify.Aplication.Interfaces.Security
 {
-    public interface IJwtSevice
+    public interface IJwtService
     {
         string GenerateToken(User user);
     }

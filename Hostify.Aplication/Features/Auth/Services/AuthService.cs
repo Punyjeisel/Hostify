@@ -19,10 +19,10 @@ namespace Hostify.Aplication.Features.Auth.Services
         private readonly IUserRepository _userRepository;
         private readonly IPasswordHasher _passwordHasher;
         private readonly IEmailConfirmationTokenRepository _tokenRepository;
-        private readonly IJwtSevice _jwtService;
+        private readonly IJwtService _jwtService;
         
 
-        public AuthService(IUserRepository userRepository, IEmailService emailService, IPasswordHasher passwordHasher, IEmailConfirmationTokenRepository tokenService, IJwtSevice jwtService)
+        public AuthService(IUserRepository userRepository, IEmailService emailService, IPasswordHasher passwordHasher, IEmailConfirmationTokenRepository tokenService, IJwtService jwtService)
         {
             _userRepository = userRepository;
             _emailService = emailService;

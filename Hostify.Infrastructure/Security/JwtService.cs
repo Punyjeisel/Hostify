@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Hostify.Infrastructure.Security
 {
-    public class JwtService : IJwtSevice
+    public class JwtService : IJwtService
     {
         private readonly IConfiguration _configuration;
         public JwtService(IConfiguration configuration)

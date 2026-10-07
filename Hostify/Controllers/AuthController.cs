@@ -8,10 +8,10 @@ namespace Hostify.API.Controllers
 {
     [ApiController]
     [Route("api/auth")]
-    public class AuthsController : ControllerBase
+    public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
-        public AuthsController(IAuthService authService)
+        public AuthController(IAuthService authService)
         {
             _authService = authService;
         }

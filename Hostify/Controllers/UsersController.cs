@@ -16,9 +16,9 @@ namespace Hostify.API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly HostifyDbContext _context;
-        private readonly IJwtSevice _jwtService;
+        private readonly IJwtService _jwtService;
 
-        public UsersController(HostifyDbContext context, IJwtSevice jwtService)
+        public UsersController(HostifyDbContext context, IJwtService jwtService)
         {
             _context = context;
             _jwtService = jwtService;
