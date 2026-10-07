@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.10.12224.181
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.API", "Hostify\Host
 		{907097AF-7270-487D-BC8D-48126CCE7DB9} = {907097AF-7270-487D-BC8D-48126CCE7DB9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.Application", "Hostify.Aplication\Hostify.Application.csproj", "{907097AF-7270-487D-BC8D-48126CCE7DB9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hostify.Application", "Hostify.Application\Hostify.Application.csproj", "{907097AF-7270-487D-BC8D-48126CCE7DB9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{441BEBDD-8906-4F23-955A-270EC6702713} = {441BEBDD-8906-4F23-955A-270EC6702713}
 	EndProjectSection

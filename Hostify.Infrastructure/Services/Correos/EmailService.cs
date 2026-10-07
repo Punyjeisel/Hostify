@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Hostify.Infrastructure.configuration;
 using Microsoft.Extensions.Options;
-using Hostify.Aplication.Features.Auth.Interfaces;
+using Hostify.Application.Features.Auth.Interfaces;
 
 
 namespace Hostify.Infrastructure.Services.Correos

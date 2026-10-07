@@ -1,9 +1,9 @@
 ﻿using Hostify.Domain.Entities;
 using Hostify.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using Hostify.Aplication.Features.Reviews.Interfaces;
+using Hostify.Application.Features.Reviews.Interfaces;
 using Hostify.Domain.Enums;
-using Hostify.Aplication.Features.Reservations.DTOs;
+using Hostify.Application.Features.Reservations.DTOs;
 
 namespace Hostify.Infrastructure.Repository
 {

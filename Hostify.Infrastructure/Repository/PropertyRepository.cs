@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hostify.Aplication.Features.Auth.DTOs;
+using Hostify.Application.Features.Auth.DTOs;
 using Hostify.Domain.Entities;
 using Hostify.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using Hostify.Aplication.Features.Properties.Interfaces;
-using Hostify.Aplication.Features.Properties.DTOs;
+using Hostify.Application.Features.Properties.Interfaces;
+using Hostify.Application.Features.Properties.DTOs;
 using Hostify.Domain.Enums;
 
 namespace Hostify.Infrastructure.Repository

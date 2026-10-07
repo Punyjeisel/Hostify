@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Hostify.Aplication.Features.Reservations.Interfaces;
+using Hostify.Application.Features.Reservations.Interfaces;
 using Hostify.Infrastructure.Repository;
 using Hostify.Domain.Enums;
 

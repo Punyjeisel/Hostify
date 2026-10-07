@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hostify.Aplication.Features.Notifications.Interfaces;
+using Hostify.Application.Features.Notifications.Interfaces;
 using Hostify.Domain.Entities;
 using Hostify.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hostify.Aplication.Features.Auth.Interfaces;
+using Hostify.Application.Features.Auth.Interfaces;
 using Hostify.Domain.Entities;
 using Hostify.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;

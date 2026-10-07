@@ -7,7 +7,7 @@ using Hostify.Infrastructure.Persistence;
 using Hostify.Infrastructure.Repository;
 using Hostify.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Hostify.Aplication.Features.Auth.Interfaces;
+using Hostify.Application.Features.Auth.Interfaces;
 
 namespace Hostify.Infrastructure.Repository
 {

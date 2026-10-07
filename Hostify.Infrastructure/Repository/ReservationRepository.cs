@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hostify.Aplication.Features.Reservations.Interfaces;
+using Hostify.Application.Features.Reservations.Interfaces;
 using Hostify.Domain.Entities;
 using Hostify.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Hostify.Domain.Enums;
-using Hostify.Aplication.Features.Reservations.DTOs;
+using Hostify.Application.Features.Reservations.DTOs;
 using Microsoft.EntityFrameworkCore.Storage;
-using Hostify.Aplication.Features.Notifications.Interfaces;
+using Hostify.Application.Features.Notifications.Interfaces;
 
 namespace Hostify.Infrastructure.Repository
 {

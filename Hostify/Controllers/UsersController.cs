@@ -1,5 +1,5 @@
 ﻿using System.Security.Claims;
-using Hostify.Aplication.Interfaces.Security;
+using Hostify.Application.Interfaces.Security;
 using Hostify.Domain.Entities;
 using Hostify.Domain.Enums;
 using Hostify.Infrastructure.Persistence;

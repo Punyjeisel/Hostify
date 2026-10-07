@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
-using Hostify.Aplication.Features.Auth.DTOs;
-using Hostify.Aplication.Features.Auth.Interfaces;
+using Hostify.Application.Features.Auth.DTOs;
+using Hostify.Application.Features.Auth.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using Hostify.Aplication.Features.Properties.DTOs;
+using Hostify.Application.Features.Properties.DTOs;
 using System.Security.Claims;
-using Hostify.Aplication.Features.Properties.Interfaces;
+using Hostify.Application.Features.Properties.Interfaces;
 
 namespace Hostify.API.Controllers
 {

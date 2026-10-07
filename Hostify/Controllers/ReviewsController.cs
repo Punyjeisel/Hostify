@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using Hostify.Aplication.Features.Reviews.Interfaces;
-using Hostify.Aplication.Features.Reviews.DTOs;
+using Hostify.Application.Features.Reviews.Interfaces;
+using Hostify.Application.Features.Reviews.DTOs;
 using System.Security.Claims;
-using Hostify.Aplication.Features.Auth.DTOs;
+using Hostify.Application.Features.Auth.DTOs;
 
 namespace Hostify.API.Controllers
 {
