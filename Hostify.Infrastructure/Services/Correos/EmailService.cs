@@ -15,8 +15,8 @@ namespace Hostify.Infrastructure.Services.Correos
     {
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            var fromEmail = "JeiselBarley10@gmail.com";
-            var appPassword = "kibk dzzc iydl nezv";
+            var fromEmail = "Email:FromEmail";
+            var appPassword = "Email:AppPassword";
 
             var client = new SmtpClient("smtp.gmail.com", 587)
             {
