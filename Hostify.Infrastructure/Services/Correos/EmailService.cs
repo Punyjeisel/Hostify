@@ -7,16 +7,28 @@ using System.Threading.Tasks;
 using Hostify.Infrastructure.configuration;
 using Microsoft.Extensions.Options;
 using Hostify.Application.Features.Auth.Interfaces;
+using Hostify.Domain.Entities;
 
 
 namespace Hostify.Infrastructure.Services.Correos
 {
     public class EmailService : IEmailService
     {
+
+        private readonly EmailConfiguration _emailConfiguration;
+
+        public EmailService(IOptions<EmailConfiguration> emailConfiguration)
+        {
+            _emailConfiguration = emailConfiguration.Value;
+        }
+
+
+
         public async Task SendEmailAsync(string toEmail, string subject, string message)
         {
-            var fromEmail = "Email:FromEmail";
-            var appPassword = "Email:AppPassword";
+
+            var fromEmail = _emailConfiguration.FromEmail;
+            var appPassword = _emailConfiguration.AppPassword;
 
             var client = new SmtpClient("smtp.gmail.com", 587)
             {

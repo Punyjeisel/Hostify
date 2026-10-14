@@ -10,7 +10,6 @@ using Hostify.Application.Features.Properties.Services;
 using Hostify.Application.Features.Reservations.Interfaces;
 using Hostify.Application.Features.Reservations.Services;
 using Hostify.Application.Features.Reviews.Interfaces;
-using Hostify.Application.Features.Reviews.Interfaces;
 using Hostify.Application.Features.Reviews.Services;
 using Hostify.Application.Interfaces.Security;
 using Hostify.Infrastructure.configuration;
@@ -98,6 +97,9 @@ namespace Hostify
             builder.Services.AddScoped<INotificationService , NotificationService>(); // Agrega el servicio de notificaciones
 
             builder.Services.AddScoped<INotificationRepository, NotificationRepository>(); // Agrega el repositorio de notificaciones
+
+            builder.Services.Configure<EmailConfiguration>(
+                builder.Configuration.GetSection("Email"));
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
